@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 🌌 BACKGROUND PARALLAX -->
+<div class="parallax">
+    <div class="layer layer1"></div>
+    <div class="layer layer2"></div>
+    <div class="layer layer3"></div>
+</div>
+
+<!-- 📦 MAIN CONTAINER -->
+<div class="container">
+
+    <h1>🔐 ARAP NI BOS</h1>
+    <p>Masukkan Username untuk generate password</p>
+
+    <!-- INPUT -->
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="Masukkan Username">
+
+    <!-- BUTTON GENERATE -->
+    <button id="generateBtn">Generate Password</button>
+
+    <!-- OUTPUT -->
+    <label for="outputUsername">Username Hasil</label>
+    <input type="text" id="outputUsername" readonly>
+
+    <label for="outputPassword">Password Hasil</label>
+    <input type="text" id="outputPassword" readonly>
+
+    <!-- BUTTON COPY -->
+    <button id="copyBtn">Salin Semua Output</button>
+
+    <!-- STATUS -->
+    <p id="status"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
